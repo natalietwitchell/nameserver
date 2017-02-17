@@ -9,6 +9,7 @@
 #include <algorithm>
 #include "fifo.h"
 
+//this is a test client program so that the server and fifo can be tested before CGI and HTML are used
 using namespace std;
 string receive_fifo = "Namereply";
 string send_fifo = "Namerequest";

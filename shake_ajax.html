@@ -15,7 +15,7 @@
         var XMLHttp;
 if (navigator.appName == "Microsoft Internet Explorer") {
     XMLHttp = new ActiveXObject("Microsoft.XMLHTTP");
-} else {
+} else {//need to use a separate object for internet explorer as opposed to other browsers
     XMLHttp = new XMLHttpRequest();
 }
 
