@@ -163,3 +163,5 @@ int createnamemap(map<string, vector<int> > &refs, string) {
     }
     return (1);
 }
+
+//Git test
